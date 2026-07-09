@@ -89,7 +89,11 @@ module.exports = {
   platforms: ["ios", "android", "web"],
   description: undefined,
   locales: undefined,
-  extra: undefined,
+  extra: {
+  eas: {
+    projectId: "041ed296-ed4a-43ec-bffa-f34c0cad1f54"
+  }
+},
   jsEngine: undefined,
   notification: {
     icon: undefined,
